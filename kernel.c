@@ -183,30 +183,3 @@ break;
 
 }
 
-/*void executeProgram(char*name){
-       char buffer[13312];
-        int i;
-        int segment =0x2000;
-           readFile(name,buffer);
-      while(i<13312){
-     putInMemory(segment,i,buffer[i]);
-    i++;
-
-  }
-
-
-}
-
- void terminate(){
-
-	char shellname[6];
-	shellname[0]= 's';
-	shellname[1] = 'h';
-	shellname[2]='e';
-	shellname[3]='l';
-	shellname[4]='l';
-	shellname[5]='\0';
-	executeProgram(shellname);
-}
-
-*/
